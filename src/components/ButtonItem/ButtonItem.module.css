@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  padding: 24px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 72px;
+  background: var(--green-light);
+  cursor: pointer;
+}
+.checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  border: 1px solid var(--violet-indigo);
+  background: var(--base-white);
+}
+.check {
+  width: 10px;
+  height: 10px;
+  border-radius: 100px;
+  background: var(--base-black);
+}
+.title {
+  color: var(--base-500);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}

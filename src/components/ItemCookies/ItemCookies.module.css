@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+  justify-content: space-between;
+  width: 345px;
+  padding: 36px 24px 32px 24px;
+  background: var(--base-white);
+}
+
+.titlesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.title {
+  color: var(--violet-600);
+  text-align: center;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.subTitle {
+  color: var(--base-500);
+  text-align: center;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 6px;
+}
+
+.message {
+  min-height: 20px;
+  color: var(--violet-600);
+  text-align: center;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Poppins;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}

@@ -1,0 +1,31 @@
+.container {
+  min-width: 90px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+.checkbox {
+  width: 52px;
+  height: 32px;
+  border-radius: 900px;
+  background: var(--neutrals-900);
+  display: flex;
+  align-items: center;
+  padding: 0 2px;
+}
+.check {
+  justify-content: flex-end;
+  background: var(--status-colors-green);
+}
+.point {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  padding: 6px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 20px;
+  background: var(--base-white);
+}
